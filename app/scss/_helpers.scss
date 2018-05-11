@@ -1,0 +1,18 @@
+.wrapper {
+    width: 90vw;
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+}
+.foot-cont-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.in-co-bl {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}

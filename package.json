@@ -1,0 +1,26 @@
+{
+  "name": "life",
+  "version": "1.0.0",
+  "description": "Мой первый проект !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass --watch css\\style.scss:css\\style.css",
+    "nodka": "node index.js",
+    "sass": "gulp sass",
+    "sw": "gulp sass:watch"
+  },
+  "kgulpfile.jseywords": [
+    "html",
+    "scss"
+  ],
+  "author": "Oleg",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
